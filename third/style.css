@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+ul {
+  background: #333;
+  margin: 0;
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  color: white;
+  padding: 5px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.middle-box {
+  padding: 30px 25px 30px 25px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.left-column {
+  width: calc((100%/2) - 50px);
+  float: left;
+  margin: 20px;
+}
+
+.right-column {
+  width: calc((100%/2) - 50px);
+  float: left;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  clear: both;
+  background: #333;
+  height: 50px;
+}
